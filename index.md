@@ -9,7 +9,13 @@ This is a brief introduction about myself.
 
 ## My Projects
 
-Here are some of the projects I've worked on.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
 
 ## Contact Me
 
