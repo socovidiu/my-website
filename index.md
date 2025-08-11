@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Ovidiu SUciu
-tagline: Developer · DevOps · etc.
+tagline: SSoftware Developer, Open Source Enthusiast, and Tech Blogger
 ---
