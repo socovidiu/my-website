@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Your Name
+title: Ovidiu SUciu
 tagline: Developer · DevOps · etc.
 ---
