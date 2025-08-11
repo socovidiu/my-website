@@ -1,0 +1,12 @@
+<article class="card">
+  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+  {% if project.stack %}<p class="muted">{{ project.stack | join: " · " }}</p>{% endif %}
+  {% if project.excerpt %}<p>{{ project.excerpt | strip_html | truncate: 140 }}</p>{% endif %}
+  {% if project.links %}
+    <p class="links">
+    {% for l in project.links %}
+      <a class="btn tiny" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>
+    {% endfor %}
+    </p>
+  {% endif %}
+</article>

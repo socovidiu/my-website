@@ -1,0 +1,6 @@
+programming: [Python, JavaScript, TypeScript, C, Bash]
+frontend: [React, TailwindCSS, Vite]
+backend: [FastAPI, Node.js, Express, .NET]
+databases: [PostgreSQL, MongoDB]
+devops: [Docker, GitHub Actions, Linux, CI/CD, Redis, Celery, Kubernetes]
+tools: [Git, VS Code, PyCharm, Docker Desktop]

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  {% if site.tagline %}<p class="tagline">{{ site.tagline }}</p>{% endif %}
+  <div class="cta">
+    <a class="btn" href="{{ '/projects/' | relative_url }}">View Projects</a>
+    <a class="btn ghost" href="{{ '/skills/' | relative_url }}">Skills</a>
+  </div>
+</section>
+
+{% assign featured = site.projects | where_exp: 'p', 'p.featured == true' | slice: 6 %}
+{% if featured and featured.size > 0 %}
+<section>
+  <h2>Featured Projects</h2>
+  <div class="grid">
+    {% for project in featured %}
+      {% include card-project.html project=project %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign latest = site.posts | slice: 3 %}
+{% if latest and latest.size > 0 %}
+<section>
+  <h2>Latest Posts</h2>
+  <ul class="posts">
+    {% for post in latest %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="muted">— {{ post.date | date: "%b %-d, %Y" }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

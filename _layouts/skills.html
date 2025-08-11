@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /skills/
+---
+<h1>Skills</h1>
+{% for group in site.data.skills %}
+  <h2>{{ group[0] | capitalize }}</h2>
+  <div class="badges">
+    {% for skill in group[1] %}
+      {% include badge.html text=skill %}
+    {% endfor %}
+  </div>
+{% endfor %}

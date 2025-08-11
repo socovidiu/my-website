@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /projects/
+---
+<h1>Projects</h1>
+<div class="filters">
+  <input id="search" type="search" placeholder="Search projects or stack...">
+</div>
+<div class="grid" id="projects-grid">
+  {% assign items = site.projects | sort: 'title' %}
+  {% for project in items %}
+    {% include card-project.html project=project %}
+  {% endfor %}
+</div>
