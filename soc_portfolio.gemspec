@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.name          = "soco-portfolio"
   s.version       = "0.1.0"
-  s.authors       = ["Your Name"]
-  s.email         = ["you@example.com"]
+  s.authors       = ["Ovidiu Suciu"]
+  s.email         = ["ovidiu.suciusoc@gmail.com"]
   s.summary       = "A clean, portfolio-first Jekyll theme"
-  s.homepage      = "https://example.com"
+  s.homepage      = "https://profile.com"
   s.license       = "MIT"
   s.required_ruby_version = ">= 2.7"
   s.files         = Dir.glob("**/*", File::FNM_DOTMATCH).reject { |f| f =~ /(^|\/)(\.git|pkg|node_modules)(\/|$)/ }

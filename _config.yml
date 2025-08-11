@@ -1,8 +1,10 @@
-theme: soc-portfolio
 title: Ovidiu Suciu
 tagline: Backend · DevOps · Cloud
-github_username: yourgithub
-plugins: [jekyll-seo-tag, jekyll-sitemap]
+github_username: socovidiu
+theme: null
+plugins: 
+  - jekyll-seo-tag
+  - jekyll-sitemap
 collections:
   projects:
     output: true
