@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Welcome to My Personal Website
+layout: default
+title: Home
 ---
 
 ## About Me
