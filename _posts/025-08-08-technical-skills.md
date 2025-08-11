@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Home
+title: "Technical Skills"
+date: 2025-08-08
+categories: Skills
 ---
 
 Technical Skills
