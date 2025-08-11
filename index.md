@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Ovidiu SUciu
-tagline: SSoftware Developer, Open Source Enthusiast.
+tagline: Software Developer · Full-Stack Enthusiast · Always up for a challenge
 ---
