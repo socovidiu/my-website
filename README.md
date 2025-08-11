@@ -29,23 +29,7 @@ A clean, portfolio-first theme with Projects collection, Skills from data, SEO, 
   ---
   Short pitch for the project...
   ```
-- Create `skills.md` with front matter:
-  ```markdown
-  ---
-  layout: skills
-  title: Skills
-  ---
-  ```
-- Add `_data/skills.yml`:
-  ```yaml
-  programming: [Python, JavaScript, TypeScript, C, Bash]
-  frontend: [React, TailwindCSS, Vite]
-  backend: [FastAPI, Node.js, Express, .NET]
-  databases: [PostgreSQL, MongoDB]
-  devops: [Docker, GitHub Actions, Linux, CI/CD, Redis, Celery, Kubernetes]
-  tools: [Git, VS Code, PyCharm, Docker Desktop]
-  ```
-
+-
 ## Pages
 - Set `index.md` front matter to use the home layout:
   ```yaml

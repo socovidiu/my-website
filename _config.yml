@@ -1,4 +1,8 @@
-title: My Personal Website
-description: A brief introduction about myself.
-theme: jekyll-theme-chirpy
-
+theme: soc-portfolio
+title: Ovidiu Suciu
+tagline: Backend · DevOps · Cloud
+github_username: yourgithub
+plugins: [jekyll-seo-tag, jekyll-sitemap]
+collections:
+  projects:
+    output: true
