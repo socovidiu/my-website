@@ -1,3 +1,4 @@
 title: My Personal Website
 description: A brief introduction about myself.
-theme: minima
+theme: jekyll-theme-chirpy
+
