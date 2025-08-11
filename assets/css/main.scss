@@ -56,3 +56,11 @@ article.post, article.project { max-width: 800px; margin: 0 auto; }
 .about-me p {
   color: var(--muted);
 }
+
+.contact-me {
+  margin-top: 2rem;
+  max-width: 800px;
+}
+.contact-me a {
+  color: var(--accent);
+}
