@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 Gem::Specification.new do |s|
-  s.name          = "soco-portfolio"
+  s.name          = "soc-portfolio"
   s.version       = "0.1.0"
   s.authors       = ["Ovidiu Suciu"]
   s.email         = ["ovidiu.suciusoc@gmail.com"]

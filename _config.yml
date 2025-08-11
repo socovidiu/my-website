@@ -2,6 +2,8 @@ title: Ovidiu Suciu
 tagline: Backend · DevOps · Cloud
 github_username: socovidiu
 theme: null
+baseurl: "/my-website"
+url: "https://socovidiu.github.io"
 plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap

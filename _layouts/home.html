@@ -3,11 +3,23 @@ layout: default
 ---
 <section class="hero">
   <h1>{{ site.title }}</h1>
-  {% if site.tagline %}<p class="tagline">{{ site.tagline }}</p>{% endif %}
+  {% if site.tagline %}
+    <p class="tagline">{{ site.tagline }}</p>
+  {% endif %}
   <div class="cta">
     <a class="btn" href="{{ '/projects/' | relative_url }}">View Projects</a>
     <a class="btn ghost" href="{{ '/skills/' | relative_url }}">Skills</a>
   </div>
+</section>
+
+<section class="about-me">
+  <h2>About Me</h2>
+  <p>
+    I’m passionate about <strong>web development</strong> and <strong>full-stack engineering</strong>, with a growing interest in 
+    <strong>game development</strong>. I love exploring new technologies, tackling unique challenges, 
+    and building solutions that make an impact. I’m always open to learning and collaborating 
+    on innovative projects.
+  </p>
 </section>
 
 {% assign featured = site.projects | where_exp: 'p', 'p.featured == true' | slice: 6 %}
