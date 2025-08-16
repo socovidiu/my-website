@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
   {% include head.html %}
 </head>
 <body class="site">
   <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
     <nav class="nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
       <a href="{{ '/skills/' | relative_url }}">Skills</a>
-      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
     </nav>
   </header>
-  <main class="site-main">
-    {{ content }}
-  </main>
+  <div class="layout">
+    {% include sidebar.html %}
+    <main class="site-main">
+      {{ content }}
+    </main>
+  </div>
+
   <footer class="site-footer">
     <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</p>
   </footer>

@@ -1,0 +1,118 @@
+.brand {
+    font-weight: 700;
+}
+
+.nav a {
+    margin-left: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--accent);
+}
+
+.btn.ghost {
+    background: transparent;
+}
+
+.btn.small {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.btn.tiny {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+}
+
+.posts {
+    list-style: none;
+    padding: 0;
+}
+
+.filters {
+    margin: 16px 0;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+}
+
+article.post,
+article.project {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 40px 0 20px;
+}
+
+.hero .tagline {
+    color: var(--muted);
+    max-width: 700px;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--card);
+}
+
+.about-me {
+    margin-top: 2rem;
+    max-width: 800px;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+.about-me h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--accent);
+}
+
+.about-me p {
+    color: var(--muted);
+}
+
+.contact-me {
+    margin-top: 2rem;
+    max-width: 800px;
+}
+
+.contact-me a {
+    color: var(--accent);
+}

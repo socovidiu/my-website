@@ -39,3 +39,13 @@ A clean, portfolio-first theme with Projects collection, Skills from data, SEO, 
   tagline: Backend · DevOps · Cloud
   ---
   ```
+
+## Dev setup
+1. Install dependencies:
+   ```bash
+   bundle install
+   ```
+2. Run Jekyll:
+   ```bash
+   bundle exec jekyll serve
+   ```  

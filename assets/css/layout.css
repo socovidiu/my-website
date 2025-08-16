@@ -1,0 +1,4 @@
+.site-header, .site-footer { max-width: 1100px; margin: 0 auto; padding: 18px 20px; display:flex; align-items:center; justify-content: space-between; }
+.site-main { max-width: 1100px; margin: 0 auto; padding: 24px 20px 60px; }
+.layout { display: flex; min-height: 100vh; gap: 1.5rem; }
+.layout .site-main { flex: 1; max-width: none; margin: 0; }
