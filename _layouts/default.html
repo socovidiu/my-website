@@ -10,6 +10,9 @@
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
       <a href="{{ '/skills/' | relative_url }}">Skills</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <span id="theme-icon"></span>
+      </button> 
     </nav>
   </header>
   <div class="layout">
@@ -23,5 +26,6 @@
     <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</p>
   </footer>
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
 </body>
 </html>

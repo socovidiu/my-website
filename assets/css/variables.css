@@ -1,18 +1,17 @@
 :root {
+  --bg: #ffffff;
+  --card: #f8f9fb;
+  --text: #111218;
+  --muted: #4b5563;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+[data-theme="dark"] {
   --bg: #0b0c10;
   --card: #111218;
   --text: #e6e6e6;
   --muted: #9aa0a6;
   --accent: #4cc9f0;
   --border: #22242e;
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #ffffff;
-    --card: #f8f9fb;
-    --text: #111218;
-    --muted: #4b5563;
-    --accent: #2563eb;
-    --border: #e5e7eb;
-  }
 }

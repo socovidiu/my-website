@@ -116,3 +116,26 @@ article.project {
 .contact-me a {
     color: var(--accent);
 }
+
+#theme-toggle {
+  background: var(--bg);
+  color: var(--text);
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+#theme-toggle:hover {
+  background: var(--card);
+}
+#theme-toggle svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+}

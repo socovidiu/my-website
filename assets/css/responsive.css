@@ -1,7 +1,13 @@
 @media (max-width: 900px) {
-  .layout { flex-direction: column; }
-  .sidebar { width: 100%; }
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
 }
+
 .site-header {
   width: 100vw;
   max-width: none;
@@ -9,8 +15,8 @@
   right: 0;
   margin: 0;
   padding: 1rem 2vw;
-  box-shadow: 0 2px 8px rgba(0,0,0,.15);
-  border-bottom: 5px solid rgba(255,255,255,.18);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+  border-bottom: 5px solid rgba(255, 255, 255, .18);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,14 +24,17 @@
   box-sizing: border-box;
   z-index: 10;
 }
+
 .site-header .brand {
   font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   margin-right: 2rem;
 }
+
 .site-header .nav {
   display: flex;
   gap: 1.25rem;
 }
+
 .site-header .nav a {
   font-size: clamp(1rem, 1.5vw, 1.25rem);
   margin-left: 0;
