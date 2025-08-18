@@ -1,0 +1,8 @@
+<div class="skill-card">
+  <h2>{{ include.title }}</h2>
+  <div class="badges">
+    {% for skill in include.items %}
+      {% include badge.html text=skill %}
+    {% endfor %}
+  </div>
+</div>

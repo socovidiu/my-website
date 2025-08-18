@@ -3,11 +3,66 @@ layout: default
 permalink: /skills/
 ---
 <h1>Skills</h1>
-{% for group in site.data.skills %}
-  <h2>{{ group[0] | capitalize }}</h2>
-  <div class="badges">
-    {% for skill in group[1] %}
-      {% include badge.html text=skill %}
-    {% endfor %}
+ 
+
+<div class="skills-grid">
+  {% for group in site.data.skills %}
+    {% assign skill_title = group[0] | capitalize %}
+    {% assign skill_items = group[1] %}
+    {% include skill-card.html title=skill_title items=skill_items %}
+  {% endfor %}
+</div>
+
+<!-- Full Stack Diagram
+<div class="fullstack-arch">
+  <div class="arch-row">
+    <div class="arch-box">
+      <strong>Mobile Development</strong><br>
+      <span>📱</span>
+    </div>
+    <div class="arch-box">
+      <strong>Web Development</strong><br>
+      <span>🖥️</span>
+    </div>
   </div>
-{% endfor %}
+  <div class="arch-arrow">↓</div>
+  <div class="arch-row">
+    <div class="arch-box arch-wide">
+      <strong>API Gateways</strong><br>
+      <span>API Gateway | GraphQL | Web Socket</span>
+    </div>
+  </div>
+  <div class="arch-arrow">↓</div>
+  <div class="arch-row">
+    <div class="arch-box arch-wide">
+      <strong>Backend Services</strong><br>
+      <span>REST API | Cloud Functions</span>
+    </div>
+    <div class="arch-box arch-side">
+      <strong>External Services</strong><br>
+      <span>✉️ Email | 💬 SMS</span>
+    </div>
+  </div>
+  <div class="arch-arrow">↓</div>
+  <div class="arch-row">
+    <div class="arch-box">
+      <strong>Database</strong><br>
+      <span>🗄️</span>
+    </div>
+    <div class="arch-box">
+      <strong>File Storage</strong><br>
+      <span>☁️</span>
+    </div>
+    <div class="arch-box">
+      <strong>Multimedia</strong><br>
+      <span>🎞️</span>
+    </div>
+  </div>
+  <div class="arch-devops">
+    <strong>DevOps</strong>
+    <div>🐳 Docker</div>
+    <div>☸️ Jenkins</div>
+    <div>🔧 Git</div>
+  </div>
+</div> -->
+
