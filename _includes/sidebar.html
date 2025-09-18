@@ -1,6 +1,6 @@
 <aside class="sidebar">
   <div class="sidebar-profile">
-    <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Profile photo" class="sidebar-avatar">
+    <img src="{{ '/assets/img/profile_photo.jpg' | relative_url }}" alt="Profile photo" class="sidebar-avatar">
     <h2 class="sidebar-name">Ovidiu Suciu</h2>
     <p class="sidebar-bio">Software Developer · Full-Stack Enthusiast</p>
     <p class="sidebar-location">Based in Cluj-Napoca, Romania</p>
@@ -9,6 +9,13 @@
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/projects/' | relative_url }}">Projects</a>
     <a href="{{ '/skills/' | relative_url }}">Skills</a>
+
+    <a 
+      href="{{ '/assets/CV.pdf' | relative_url }}" 
+      target="_blank" rel="noopener">
+      View CV (PDF)
+    </a>
+   
   </nav>
   <div class="sidebar-links">
     <a href="https://github.com/socovidiu" target="_blank" rel="noopener" title="GitHub">
