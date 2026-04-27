@@ -1,6 +1,26 @@
-programming: [Python, JavaScript, TypeScript, C, Bash]
-frontend: [React, TailwindCSS, Vite]
-backend: [FastAPI, Node.js, Express, .NET]
-databases: [PostgreSQL, MongoDB]
-devops: [Docker, GitHub Actions, Linux, CI/CD, Redis, Celery, Kubernetes]
-tools: [Git, VS Code, PyCharm, Docker Desktop]
+Programming Languages: [Python, JavaScript, TypeScript, C, Bash]
+
+AI & LLM Integration: [
+  OpenAI API, Google Vertex AI (Gemini), Anthropic API,
+  Prompt Engineering, LLM Orchestration, Token Optimization,
+  Parallel Requests, Structured Output Validation, XLIFF Processing
+]
+
+Frontend: [React, TailwindCSS, Vite]
+
+Backend: [FastAPI, Node.js, Express, .NET, REST APIs, API Integration]
+
+Databases: [PostgreSQL, MongoDB]
+
+DevOps & Infrastructure: [
+  Docker, Kubernetes, GitHub Actions, CI/CD, Linux
+]
+
+Cloud: [
+  GCP (GKE, Cloud Run, Artifact Registry),
+  Azure AI Services
+]
+
+Runtime & Tooling: [Uvicorn, Nginx, Docker Desktop]
+
+Dev Tools: [Git, VS Code, PyCharm]
